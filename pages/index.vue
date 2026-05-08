@@ -10,6 +10,6 @@
 
 <script setup>
 useHead({
-  title: 'Kingsport Run 2026 — Kingsport Run',
+  title: 'Kingsport Run 2026 — Run Kingsport',
 })
 </script>
