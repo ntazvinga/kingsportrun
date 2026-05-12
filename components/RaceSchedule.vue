@@ -4,7 +4,7 @@
       <div class="schedule__header">
         <p class="section-label">Race Day</p>
         <h2 class="section-title">2 August,<br /><span class="gold">2026</span></h2>
-        <p class="schedule__sub">All events start at Kingsport Town Center · 400 Clinchfield St</p>
+        <p class="schedule__sub">All events start in Harare, Zimbabwe · Venue to be announced</p>
       </div>
 
       <ol class="timeline" aria-label="Race day schedule">

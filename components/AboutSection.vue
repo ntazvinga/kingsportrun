@@ -5,9 +5,9 @@
         <p class="section-label">About the Race</p>
         <h2 class="section-title">More Than a<br /><span class="gold">Marathon</span></h2>
         <p class="about__body">
-          The Kingsport Run is East Tennessee's premier road race — a celebration of grit,
-          community, and the open road. Winding through tree-lined neighborhoods, riverfront
-          greenways, and the historic downtown district, every mile tells a story.
+          The Kingsport Run is Harare's premier road race — a celebration of grit,
+          community, and the open road. Winding through tree-lined neighbourhoods, riverside
+          greenways, and the historic city centre, every mile tells a story.
         </p>
         <p class="about__body">
           Whether you're chasing a personal record or crossing your very first finish line, the

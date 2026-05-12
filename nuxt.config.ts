@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Kingsport Run — 2 August 2026. 5K, 10K & 21K through the heart of Kingsport.',
+            'Kingsport Run — 2 August 2026. 5K, 10K & 21K through the heart of Harare, Zimbabwe.',
         },
       ],
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
