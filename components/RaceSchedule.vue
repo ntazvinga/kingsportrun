@@ -37,13 +37,13 @@ const schedule = [
   },
   {
     time:  '6:30 AM',
-    title: 'Full Marathon Start',
-    desc:  'Wave starts for full marathon runners — corrals A–D.',
+    title: '21K Start',
+    desc:  'Wave starts for 21K runners — corrals A–C.',
   },
   {
     time:  '7:00 AM',
-    title: 'Half Marathon Start',
-    desc:  'Wave starts for half marathon runners — corrals A–C.',
+    title: '10K Start',
+    desc:  'Wave starts for 10K runners — corrals A–B.',
   },
   {
     time:  '8:00 AM',
@@ -52,12 +52,12 @@ const schedule = [
   },
   {
     time:  '9:00 AM',
-    title: 'Awards Ceremony — 5K',
+    title: 'Awards Ceremony — 5K & 10K',
     desc:  'Top 3 overall (M/F/NB) and age-group awards presented.',
   },
   {
     time:  '10:30 AM',
-    title: 'Awards Ceremony — Half Marathon',
+    title: 'Awards Ceremony — 21K',
     desc:  'Top 3 overall (M/F/NB) and age-group awards presented.',
   },
   {

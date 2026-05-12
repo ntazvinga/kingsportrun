@@ -48,9 +48,9 @@ const categories = [
     ],
   },
   {
-    distance: '13.1',
-    name:     'Half Marathon',
-    price:    '$55',
+    distance: '10K',
+    name:     '10 Kilometer',
+    price:    '$45',
     featured: true,
     perks: [
       'Kingsport finisher medal',
@@ -61,9 +61,9 @@ const categories = [
     ],
   },
   {
-    distance: '26.2',
-    name:     'Full Marathon',
-    price:    '$80',
+    distance: '21K',
+    name:     '21 Kilometer',
+    price:    '$55',
     featured: false,
     perks: [
       'Elite Kingsport finisher medal',
