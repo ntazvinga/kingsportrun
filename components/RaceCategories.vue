@@ -26,9 +26,6 @@
             </li>
           </ul>
 
-          <div class="cat-card__footer">
-            <span class="cat-card__entry-fee">Entry fee: {{ cat.price }}</span>
-          </div>
         </article>
       </div>
     </div>
@@ -41,7 +38,6 @@ const categories = [
     distance: '5',
     unit:     'km',
     name:     'Starter',
-    price:    '$35',
     featured: false,
     perks: [
       'Finisher medal',
@@ -54,7 +50,6 @@ const categories = [
     distance: '10',
     unit:     'km',
     name:     'Chase',
-    price:    '$45',
     featured: true,
     perks: [
       'Kingsport finisher medal',
@@ -68,7 +63,6 @@ const categories = [
     distance: '21',
     unit:     'km',
     name:     'Half Marathon',
-    price:    '$55',
     featured: false,
     perks: [
       'Elite Kingsport finisher medal',
@@ -192,18 +186,4 @@ const categories = [
   font-size: 0.75rem;
 }
 
-/* Footer */
-.cat-card__footer {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-}
-
-.cat-card__entry-fee {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--gold);
-}
 </style>
