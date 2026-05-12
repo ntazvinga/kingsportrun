@@ -11,10 +11,7 @@
           v-for="cat in categories"
           :key="cat.name"
           class="cat-card"
-          :class="{ 'cat-card--featured': cat.featured }"
         >
-          <div v-if="cat.featured" class="cat-card__badge">Most Popular</div>
-
           <div class="cat-card__distance">
             {{ cat.distance }}<span class="cat-card__unit">{{ cat.unit }}</span>
           </div>
@@ -50,7 +47,7 @@ const categories = [
     distance: '10',
     unit:     'km',
     name:     'Chase',
-    featured: true,
+    featured: false,
     perks: [
       'Kingsport finisher medal',
       'Race-day shirt',
@@ -119,26 +116,6 @@ const categories = [
   transform: translateY(-4px);
 }
 
-.cat-card--featured {
-  border-color: var(--crimson, #7A0E1C);
-  background: linear-gradient(160deg, rgba(122,14,28,0.06) 0%, var(--bg) 60%);
-}
-
-.cat-card__badge {
-  position: absolute;
-  top: -0.85rem;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  padding: 0.25rem 1rem;
-  background: var(--gold);
-  color: #0E0E0E;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  border-radius: 99px;
-}
 
 .cat-card__distance {
   font-family: var(--font-display);
