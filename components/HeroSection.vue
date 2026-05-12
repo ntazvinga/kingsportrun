@@ -15,8 +15,8 @@
       </h1>
 
       <p class="hero__tagline">
-        Push your limits through the heart of Kingsport.<br class="br-desktop" />
-        Where champions are made and legends are born.
+        Two thousand pairs of shoes. One sunrise.<br class="br-desktop" />
+        A street that belongs to whoever runs it first.
       </p>
 
       <div class="hero__actions">
@@ -52,12 +52,12 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
+    linear-gradient(rgba(122,14,28,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(122,14,28,0.05) 1px, transparent 1px);
   background-size: 60px 60px;
 }
 
-/* Gold glow blob */
+/* Warm glow blob */
 .hero__glow {
   position: absolute;
   top: 10%;
@@ -65,7 +65,7 @@
   transform: translateX(-50%);
   width: 800px;
   height: 500px;
-  background: radial-gradient(ellipse, rgba(201,168,76,0.12) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(122,14,28,0.07) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -76,7 +76,7 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: clamp(14rem, 22vw, 28rem);
-  color: rgba(201,168,76,0.05);
+  color: rgba(122,14,28,0.06);
   line-height: 1;
   pointer-events: none;
   user-select: none;
@@ -122,7 +122,7 @@
   font-size: clamp(4.5rem, 12vw, 9rem);
   line-height: 0.92;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: var(--text);
 }
 
 .hero__tagline {
@@ -166,14 +166,14 @@
 
 .btn--ghost {
   border: 1.5px solid var(--border);
-  color: var(--white);
-  background: rgba(255,255,255,0.03);
+  color: var(--text);
+  background: rgba(122,14,28,0.04);
 }
 
 .btn--ghost:hover {
   border-color: var(--gold);
   color: var(--gold);
-  background: rgba(201,168,76,0.06);
+  background: rgba(122,14,28,0.08);
 }
 
 /* Scroll hint */

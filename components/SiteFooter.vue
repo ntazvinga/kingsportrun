@@ -62,16 +62,19 @@
 .footer__link {
   font-size: 0.82rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--muted-inv);
   letter-spacing: 0.06em;
   transition: color 0.2s;
 }
 
-.footer__link:hover { color: var(--gold); }
+.footer__link:hover { color: var(--white); }
 
 .footer__copy {
   font-size: 0.75rem;
-  color: #555;
+  color: var(--muted-inv);
   letter-spacing: 0.04em;
 }
+
+/* crimson section overrides */
+.footer .gold { color: var(--white); }
 </style>

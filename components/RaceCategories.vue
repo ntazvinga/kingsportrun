@@ -15,7 +15,9 @@
         >
           <div v-if="cat.featured" class="cat-card__badge">Most Popular</div>
 
-          <div class="cat-card__distance">{{ cat.distance }}</div>
+          <div class="cat-card__distance">
+            {{ cat.distance }}<span class="cat-card__unit">{{ cat.unit }}</span>
+          </div>
           <h3 class="cat-card__name">{{ cat.name }}</h3>
 
           <ul class="cat-card__perks">
@@ -36,8 +38,9 @@
 <script setup>
 const categories = [
   {
-    distance: '5K',
-    name:     '5 Kilometer',
+    distance: '5',
+    unit:     'km',
+    name:     'Starter',
     price:    '$35',
     featured: false,
     perks: [
@@ -48,8 +51,9 @@ const categories = [
     ],
   },
   {
-    distance: '10K',
-    name:     '10 Kilometer',
+    distance: '10',
+    unit:     'km',
+    name:     'Chase',
     price:    '$45',
     featured: true,
     perks: [
@@ -61,8 +65,9 @@ const categories = [
     ],
   },
   {
-    distance: '21K',
-    name:     '21 Kilometer',
+    distance: '21',
+    unit:     'km',
+    name:     'Half Marathon',
     price:    '$55',
     featured: false,
     perks: [
@@ -87,6 +92,11 @@ const categories = [
   text-align: center;
   margin-bottom: 3.5rem;
 }
+
+/* Override global defaults — this section sits on crimson */
+.categories .section-label { color: var(--muted-inv); }
+.categories .section-title { color: var(--white); }
+.categories .gold           { color: var(--white); }
 
 .categories__grid {
   display: grid;
@@ -116,8 +126,8 @@ const categories = [
 }
 
 .cat-card--featured {
-  border-color: var(--gold);
-  background: linear-gradient(160deg, rgba(201,168,76,0.07) 0%, var(--bg) 60%);
+  border-color: var(--crimson, #7A0E1C);
+  background: linear-gradient(160deg, rgba(122,14,28,0.06) 0%, var(--bg) 60%);
 }
 
 .cat-card__badge {
@@ -140,8 +150,13 @@ const categories = [
   font-family: var(--font-display);
   font-size: 4rem;
   line-height: 1;
-  color: var(--gold);
+  color: var(--text);
   letter-spacing: 0.02em;
+}
+
+.cat-card__unit {
+  font-size: 1.8rem;
+  letter-spacing: 0.04em;
 }
 
 .cat-card__name {

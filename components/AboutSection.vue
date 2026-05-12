@@ -114,8 +114,8 @@ const highlights = [
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: rgba(201,168,76,0.12);
-  color: var(--gold);
+  background: rgba(245,237,224,0.18);
+  color: var(--white);
   font-size: 1rem;
 }
 
@@ -130,7 +130,7 @@ const highlights = [
 .highlight-card__desc {
   margin-top: 0.2rem;
   font-size: 0.82rem;
-  color: var(--muted);
+  color: var(--muted-inv);
   line-height: 1.5;
 }
 </style>

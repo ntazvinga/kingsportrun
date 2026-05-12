@@ -93,6 +93,9 @@ const schedule = [
   max-width: 30ch;
 }
 
+/* section-title sits on cream here — use dark text */
+.schedule .section-title { color: var(--text); }
+
 /* Timeline */
 .timeline {
   list-style: none;
@@ -150,7 +153,7 @@ const schedule = [
 .timeline__title {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--white);
+  color: var(--text);
 }
 
 .timeline__desc {

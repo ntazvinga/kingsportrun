@@ -50,7 +50,7 @@ onMounted(() => {
 }
 
 .nav.scrolled {
-  background: rgba(14, 14, 14, 0.92);
+  background: rgba(240, 228, 204, 0.95);
   backdrop-filter: blur(12px);
   box-shadow: 0 1px 0 var(--border);
 }
@@ -70,7 +70,7 @@ onMounted(() => {
   font-family: var(--font-display);
   font-size: 1.6rem;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: var(--text);
 }
 
 .nav__logo-crown {
@@ -94,7 +94,7 @@ onMounted(() => {
   transition: color 0.2s;
 }
 
-.nav__link:hover { color: var(--white); }
+.nav__link:hover { color: var(--text); }
 
 .nav__cta {
   display: inline-block;
@@ -125,7 +125,7 @@ onMounted(() => {
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--white);
+  background: var(--text);
   border-radius: 2px;
   transition: transform 0.25s, opacity 0.25s;
 }
@@ -145,7 +145,7 @@ onMounted(() => {
     gap: 1.5rem;
     position: fixed;
     inset: 0;
-    background: rgba(14, 14, 14, 0.97);
+    background: rgba(240, 228, 204, 0.98);
     backdrop-filter: blur(16px);
     padding-top: 6rem;
     opacity: 0;
@@ -162,6 +162,7 @@ onMounted(() => {
 
   .nav__link {
     font-size: 1.1rem;
+    color: var(--text);
   }
 }
 </style>
