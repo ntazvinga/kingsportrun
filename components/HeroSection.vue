@@ -11,7 +11,7 @@
       </p>
 
       <h1 class="hero__title">
-        Run<br /><span class="gold">Kingsport</span>
+        Kingsport<br /><span class="gold">Run</span>
       </h1>
 
       <p class="hero__tagline">
