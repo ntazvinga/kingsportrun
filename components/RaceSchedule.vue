@@ -3,7 +3,7 @@
     <div class="container schedule__inner">
       <div class="schedule__header">
         <p class="section-label">Race Day</p>
-        <h2 class="section-title">September 14,<br /><span class="gold">2026</span></h2>
+        <h2 class="section-title">2 August,<br /><span class="gold">2026</span></h2>
         <p class="schedule__sub">All events start at Kingsport Town Center · 400 Clinchfield St</p>
       </div>
 

@@ -7,7 +7,7 @@
     <div class="container hero__content">
       <p class="hero__eyebrow">
         <span class="eyebrow-dot"></span>
-        Kingsport, TN &nbsp;·&nbsp; September 14, 2026
+        Kingsport, TN &nbsp;·&nbsp; 2 August 2026
       </p>
 
       <h1 class="hero__title">
